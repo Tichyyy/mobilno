@@ -1,0 +1,7 @@
+{
+  "name": "mobilno",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
