@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PlayersService } from 'src/app/services/players.service';
 
 @Component({
   selector: 'app-players',
@@ -6,10 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./players.page.scss'],
 })
 export class PlayersPage implements OnInit {
+  constructor(private playersService: PlayersService) {}
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }
